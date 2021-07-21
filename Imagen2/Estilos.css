@@ -1,0 +1,38 @@
+
+body{
+    margin:0 auto;
+    margin-top: 10px;
+    width: 600px;
+    height: 600px;
+  
+}
+#Margen{
+    border:solid 2px black;
+}
+#Contenedor{
+    display:flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    margin-top:200px;
+    margin-bottom: 200px;
+}
+
+.Cuadro{
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height:200px;
+}
+.Cuadro:nth-child(1){
+    background-color:red;
+   
+
+}
+.Cuadro:nth-child(2){
+    background-color:blue;
+
+}
+.Cuadro:nth-child(3){
+    background-color:green;
+}
