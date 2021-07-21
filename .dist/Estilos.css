@@ -2,24 +2,26 @@
 body{
     margin:0 auto;
     margin-top: 10px;
-    width: 900px;
+    width: 600px;
   
 }
 #Margen{
     border:solid 2px black;
-    align-content: flex-end;
+    
 
 }
 #Contenedor{
-    display:inline-flex;
+    display:flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 .Cuadro{
     width: 200px;
     height: 200px;
     color: white;
-    
+    text-align: center;
+    line-height:200px;
 }
 .Cuadro:nth-child(1){
     background-color:red;
