@@ -1,0 +1,35 @@
+
+body{
+    margin:0 auto;
+    margin-top: 10px;
+    width: 900px;
+  
+}
+#Margen{
+    border:solid 2px black;
+    align-content: flex-end;
+
+}
+#Contenedor{
+    display:inline-flex;
+    flex-direction: column;
+    
+}
+.Cuadro{
+    width: 200px;
+    height: 200px;
+    color: white;
+    
+}
+.Cuadro:nth-child(1){
+    background-color:red;
+   
+
+}
+.Cuadro:nth-child(2){
+    background-color:blue;
+
+}
+.Cuadro:nth-child(3){
+    background-color:green;
+}
