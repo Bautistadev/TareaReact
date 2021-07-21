@@ -2,8 +2,7 @@
 body{
     margin:0 auto;
     margin-top: 10px;
-    width: 600px;
-    height: 600px;
+
   
 }
 #Margen{
@@ -11,10 +10,8 @@ body{
 }
 #Contenedor{
     display:flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    margin-top:200px;
-    margin-bottom: 200px;
+    justify-content:space-between;
+
 }
 
 .Cuadro{
